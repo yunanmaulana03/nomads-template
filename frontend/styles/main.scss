@@ -309,6 +309,13 @@ header{
             color: #b1b1b1;
         }
 
+        h3 {
+            font-weight: 300;
+            font-size: 14px;
+            color: #071C4D;
+
+        }
+
         .trip-informations {
             th {
                 font-weight: 300;
@@ -321,15 +328,58 @@ header{
                 font-size: 18;
                 color: #b1b1b1;
             }
+
+            .text-blue {
+                color: #071C4D;
+                font-weight: bold;
+            }
+
+            .text-orange{
+                color: #ff9e53;
+                font-weight: bold;
+            }
         }
 
-        h3 {
-            font-weight: 600;
+        .payment-instructions {
+            font-weight: 300;
             font-size: 14px;
-            color: #071C4D;
-
+            color: #b1b1b1;
         }
 
+        .bank {
+            .bank-image {
+                width: 45px;
+                height: 45px;
+                float: left;
+            }
+            .bank-item {
+                font-size: 18px;
+                color: #071C4D;
+                margin-bottom: 0;
+
+                p {
+                    margin-bottom: 0;
+                }
+    
+                .description {
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+                }
+
+                p {
+                    font-weight: normal;
+                    font-size: 16px;
+                    color: #071C4D;
+                }
+
+            }
+
+            
+
+            
+        }
+        
         .disclaimer {
             font-weight: 300;
             font-size: 14px;
